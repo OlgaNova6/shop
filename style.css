@@ -1,0 +1,122 @@
+:root {
+    --black: #222222   ;
+    --pink:#F1E4E6;
+    --dark-pink: #F16D7F;
+}
+body {
+    font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 17px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--black);
+    min-height: 50px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu {
+    display: none;
+}
+.header__box {
+    display: flex;
+}
+.header__logo {
+    margin: 0 41px 0 0;
+}
+.header__ico {
+    margin: 0 0 0 33px;
+}
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+.hero {
+    display: flex;
+    background-color: var(--pink);
+}
+.hero-wrap {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 92px;
+}
+.hero__title {
+font-family: Lato;
+font-size: 48px;
+font-weight: 900;
+line-height: 58px;
+text-transform: uppercase;
+}
+.hero__subtitle {
+    display: block;
+font-size: 37px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+}
+.hero__pink {
+    color: var(--dark-pink);
+}
+.sale__item{
+text-align: center;
+height: 260px;
+width: 360px;
+left: 622px;
+top: 903px;
+border-radius: 0px;
+margin-bottom: 30px;
+}
+.ip1{
+    background: url(img/sale1.png) no-repeat;
+    text-align: center;
+height: 260px;
+}
+.ip2{
+    background: url(img/sale2.png) no-repeat;
+    text-align: center;
+height: 260px;
+}
+.ip3{
+    background: url(img/sale3.png) no-repeat;
+    text-align: center;
+height: 260px;
+}
+.ip4{
+    background: url(img/sale4.png) no-repeat;
+    width: 100%;
+ }
+.sale__list{
+    min-height: 100vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sale__text{
+    color: #FFFFFF;
+}
+.sale__subtitle {
+    color: var(--dark-pink);
+}
+a{
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
